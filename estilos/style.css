@@ -25,11 +25,11 @@
 
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.5em;
+  line-height: 1.3em;
   background-color: var(--fundo-principal);
   color: var(--texto);
  }
- h1{margin: 10px;}
+ h1{margin: 20px, 0px; padding: 20px; }
 
  header{
   background-color: var(--destaque);
@@ -247,12 +247,14 @@ footer  a:hover {
 @media screen and (min-width: 768px ) {
 
       main {
-        grid-template-columns: auto 300px 1fr auto;
+        grid-template-columns: auto 400px 1fr auto;
       }
       
       section#ficha{
         grid-column: 2 / 3;
-
+        height: fit-content;
+        position: sticky;
+        top: 65px;
       }
 
       section#detalhes {
