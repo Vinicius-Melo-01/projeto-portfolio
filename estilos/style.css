@@ -248,8 +248,6 @@ footer  a:hover {
 
       main {
         grid-template-columns: auto 300px 1fr auto;
-        align-items: start;
-
       }
       
       section#ficha{
