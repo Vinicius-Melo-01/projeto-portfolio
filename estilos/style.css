@@ -250,12 +250,12 @@ footer  a:hover {
         grid-template-columns: auto 300px 1fr auto;
       }
       
-      section#ficha {
-        grid-column: 2/3;
+      section#ficha{
+        grid-column: 2 / 3;
       }
 
       section#detalhes {
-        grid-column:  3/4;
+        grid-column:  3 / 4;
       }
 
       #skill-container {
